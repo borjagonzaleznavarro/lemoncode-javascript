@@ -1,74 +1,64 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    }
-    .shopping-header > h2 {
-    margin: auto;
+}
+
+.hotels-header h2 {
     padding: 20px;
     text-align: center;
-    }
-    .shopping-item {
-    padding: 32px;
-    border-radius:3px;
-    border:1px solid #dcdcdc;
+}
+
+.hotels-body {
+    margin: auto;
+    max-width: 90%;
+}
+
+.hotel-item {
+    padding: 16px;
+    border-radius:2px;
+    border:1px solid #9c9c9c;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8px;
-    }
-    .responsive {
-    max-width: 50%;
-    width: 100px;
-    height: auto;
-    }
-    .item-entry {
-    width: 300px;
-    }
-    .item-name {
+}
+
+/* diff */
+.hotel-name-container {
+    max-width: 300px;
+}
+/* diff */
+
+.hotel-name {
     text-transform: uppercase;
-    color:#666666;
-    font-size:20px;
-    font-weight:bold;
-    }
-    .item-description {
-    text-transform: lowercase;
-    font-size: 16px;
-    display: block;
-    }
-    /* diff */
-    .quantity {
-    box-shadow:inset 0px 1px 0px 0px #ffffff;
-    background-color:transparent;
-    border-radius:3px;
-    border:1px solid #dcdcdc;
-    cursor:pointer;
-    color:#666666;
-    font-size:16px;
-    font-weight:bold;
-    padding:6px 12px;
-    text-shadow:0px 1px 0px #ffffff;
-    }
-    .quantity:active {
-    position:relative;
-    top:1px;
-    }
-    /* diff */
-    .quantity-ammount {
-    color:#666666;
-    font-size:16px;
-    font-weight:bold;
-    margin-left: 16px;
-    margin-right: 16px;
-    }
-    .value {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    min-width: 100px;
-    }
-    .shopping-footer {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .shopping-footer > span {
+    font-size: 32px;
     font-weight: 700;
-    font-size: 30px;
-    }
-    /* diff */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* diff */
+.hotel-description-container {
+    padding-top: 10px;
+    max-width: 300px;
+}
+/* diff */
+
+.hotel-description {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* diff */
+.hotel-telephone-container {
+    max-width: 250px;
+}
+/* diff */
+
+.hotel-telephone {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* diff */
+.stars {
+    max-width: 100px;
+}
+/* diff */
