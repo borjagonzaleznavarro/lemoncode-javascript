@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="site.css" />
+  <title>Módulo 4 - Reserva hotel</title>
+</head>
+
+<body>
+  <h1>Reserva de habitación</h1>
+  <form id="booking">
+    <div>
+      <label for="room">Tipo de habitación</label>
+      <select id="room">
+        <option value="standard">standard</option>
+        <option value="junior-suite">junior suite</option>
+        <option value="suite">suite</option>
+      </select>
+    </div>
+    <div>
+      <label for="spa">¿Hará uso del spa?</label>
+      <input type="checkbox" id="spa">
+    </div>
+    <div>
+      <label for="ocupation">Ocupación</label>
+      <select id="ocupation">
+        <option value="individual">individual</option>
+        <option value="doble">doble</option>
+        <option value="triple">triple</option>
+      </select>
+    </div>
+    <div>
+      <label for="nights">Número de noches</label>
+      <input type="number" id="nights" value="1" min="1">
+      <label for="parking-nights">Número de noches de parking</label>
+      <input type="number" id="parking-nights" value="0" min="0">
+    </div>
+    <button type="button" id="calc">Calcular</button>
+    <span id="error"></span>
+    <span id="total"></span>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
