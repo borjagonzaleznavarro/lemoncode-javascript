@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #272727;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cart {
+  border-top: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.row span {
+  flex: 1;
+  display: block;
+  padding: 10px;
+  border-right: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.cart--header {
+  font-weight: 600;
+  background-color: #f8f8f8;
+}
+
+.row button {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.row button:hover {
+  background-color: #f8f8f8;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  color: #777;
+  margin-top: 20px;
+}
+
+.total {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.filter {
+  margin-bottom: 10px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #f35e5e;
+}
+
+#shipping {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+}

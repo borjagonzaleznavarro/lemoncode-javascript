@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="site.css" />
+  <title>Módulo 5 - Laboratorio</title>
+</head>
+
+<body>
+  <h1>Carrito</h1>
+
+  <div class="filter">
+    <span>👑 Premium</span>
+    <input type="checkbox" id="filter-premium">
+  </div>
+
+  <div id="cart">
+    <div class="row cart--header">
+      <span>ID</span>
+      <span>Descripción</span>
+      <span>Precio</span>
+      <span>Cantidad</span>
+      <span>Premium</span>
+      <span>Total</span>
+      <span></span>
+    </div>
+    <div id="cart-content"></div>
+  </div>
+  <div class="total">
+    <span>Total: </span>
+    <span id="total"></span>
+    <span id="total-discounted"></span>
+    <span>€</span>
+  </div>
+  <p id="shipping"></p>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
