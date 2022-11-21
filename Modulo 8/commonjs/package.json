@@ -1,0 +1,15 @@
+{
+  "name": "modulo-8",
+  "version": "1.0.0",
+  "description": "Práctica del módulo 8 del bootcamp de javascript de Lemoncode",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.0"
+  }
+}
